@@ -228,6 +228,7 @@ main .results {
 contact us section
 ================== */
 
+
 body .contact h2 {
     font-size: 2.5rem;
     font-weight: 500;
@@ -294,3 +295,33 @@ body .contact h2 {
 .contact .btn button:hover {
     background-color: #c53939;
 }
+
+
+/* ===================
+   footer section
+   ================= */
+
+footer .logoh img {
+    width: 60%;
+}
+
+footer {
+    padding: 2rem;
+    background: #071629;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+
+}
+  
+ footer .copyright {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+
+ footer .social img {
+    padding: 1rem;
+ }
