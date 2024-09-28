@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+
+/* header section */
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("pics/images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+/* responsive design */
+
+
+header nav {
+    margin-left: auto;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vmin;
+}
+
+@media (max-width: 821px) {
+    nav li {
+        font-size: .7rem;
+    }
+
+}
+@media (max-width: 743px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+
+ 
+
+body header nav ul li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 4vmin;
+    font-weight: 600;
+}
+
+header ul li a:hover {
+    color: #FF6565;
+    opacity: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.hero nav img {
+    height: 7vmin;
+    width: 40vmin;
+}
+
+/* lead section */
+
+.hero .lead h1 {
+    color: white;
+    font-size: 4vmin;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30vmin;
+}
+
+.hero .lead p {
+    color: white;
+    text-align: center;
+    font-size: 2vmin;
+    padding-top: 1vmin;
+    
+}
+
+.hero .lead .btn {
+    padding: 8vmin;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.hero .lead .btn button:hover {
+    background-color: #c53939;
+}
+
+.hero .lead .btn button {
+    height: 6vmin;
+    width: 23vmin;
+    border-radius: 25px;
+    background-color:#FF6565;
+    color: white;
+    font-weight: 900;
+    border: none;
+    font-size: 2vmin;
+}
+
+.hero .lead #txt p{
+    text-align: center;
+    font-weight: none;
+    padding-bottom: 8vmin;
+    font-size: 2vmin;
+    line-height: 1.5;
+
+}

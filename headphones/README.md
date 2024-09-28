@@ -1,0 +1,1 @@
+In this project we were asked to recreate a template about headphones website from figma. We are supposed to start from scratch and make the website responsive.

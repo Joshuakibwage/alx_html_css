@@ -1,0 +1,264 @@
+ 
+* {
+    box-sizing: border-box;
+}
+ /* header and banner */
+.banner {
+    background-image: url("/images/Object.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.banner nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.banner nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(196, 172, 196);
+}
+
+/* hero */
+
+main .tittle h1 {
+    font-size: 6rem;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffff;
+    margin: 180px 20px 0px 400px;
+}
+
+
+
+button {
+    display: inline-block;
+    padding: 13px 20px;
+    background: #C271FF;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 300;
+}
+
+button:hover {
+    background: rgb(236, 167, 236);
+    opacity: 0.8;
+}
+
+main .hero-txt span {
+    
+    display: inline-block;
+    padding: 30px;
+    color: white;
+    font-weight: 600;
+      
+}
+ main .hero-txt {
+    display: flex;
+    justify-content: center;
+ }
+
+ main .tittle button {
+    margin: 2px 600px 40px;
+ }
+
+ main .profs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    text-align: center;
+    color: white;
+ }
+
+ main .hero h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+ }
+
+ main .hero h2 span {
+    color:  #C271FF;
+    font-weight: bold;
+ }
+
+
+ /* quote section */
+ body .quote {
+    background-color:#C271FF;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+ }
+
+ body .quote .block blockquote {
+    margin: 8px 8px 20px 30px;
+ }
+
+ body .quote .block h3 {
+    margin: 8px 8px 20px 30px;
+ }
+
+ body .quote .block p {
+    margin : 8px 8px 20px 30px;
+ }
+
+
+
+ /* video list section */
+ 
+ 
+
+ body #vids h2 span {
+    color:#C271FF;
+ }
+
+ body .sub-tittle h2 {
+    text-align: center;
+    padding: 60px;
+ }
+ body #vids {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+ }
+
+ body .sub-tittle h2 span {
+    color:#C271FF;
+ }
+
+
+
+
+
+
+
+ /* membership section */
+ body #container h2 {
+   text-align: center;
+
+}
+
+
+body #container h2 {
+   text-align: center;
+   padding: 30px;
+}
+
+body #container h2 span {
+   color:#C271FF;
+}
+ 
+ body #container {
+    background-color: #071629;
+    color: white;
+   
+   
+    
+ }
+
+
+ body #container .card {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+
+ body #container .card div {
+   padding: 20px;
+   text-align: center;
+   padding: 20px;
+ }
+
+ body #container .card div img {
+   padding: 10px;
+ }
+
+ body #container .card div h3{
+   padding: 10px;
+
+ }
+
+ body #container .btn {
+   padding: 30px;
+   display: flex;
+   justify-content: center;
+ }
+
+
+ /* faq section */
+
+ body .faq h2 {
+   text-align: center;
+   padding: 30px;
+   font-size: 30px;
+   
+ }
+
+ body .faq .txt {
+   display: flex;
+   justify-content: center;
+
+ }
+
+ body .faq .txt div {
+   padding: 20px;
+ }
+
+ body .faq .txt div h3 {
+   font-weight: 600;
+ }
+
+ body footer section {
+   background-color: #071629;
+   padding: 30px;
+   
+ }
+
+ body footer .footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ body footer .footer .brands {
+   color: white;
+   
+ }
+
+ body footer .footer .brands .fa-brands {
+   padding: 20px;
+ }
+
+ body footer section p {
+   display: flex;
+   justify-content: center;
+color: white;
+ }
+
+ 
